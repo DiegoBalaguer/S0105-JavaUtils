@@ -1,0 +1,6 @@
+[D] C:\Users\Diego\IdeaProjects\S0105-JavaUtils\src\main\resources                                  2025-05-01 22:15:32
+├── [F] directoryEstructure.decrypted                                                               2025-05-02 01:25:34
+├── [F] directoryEstructure.encrypted                                                               2025-05-02 01:25:34
+├── [F] directoryEstructure.txt                                                                     2025-05-01 13:46:20
+├── [F] S0105-JavaUtils_structure.txt                                                               2025-05-01 13:18:55
+└── [F] user_serialized.ser                                                                         2025-05-01 13:46:16
