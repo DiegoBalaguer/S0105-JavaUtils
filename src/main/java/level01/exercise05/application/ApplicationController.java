@@ -16,7 +16,7 @@ public class ApplicationController {
         System.out.println("* SAVE AND LOAD SERIALIZED OBJECT..........." + System.lineSeparator());
 
         System.out.println("** Create object User .............");
-        User user = new User("Esther", 36);
+        User user = new User("Alan Turin", 41);
 
         System.out.println("** User: " + System.lineSeparator() + user);
 

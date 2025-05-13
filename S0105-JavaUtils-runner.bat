@@ -2,13 +2,21 @@
 chcp 65001 > nul
 cls
 
+echo ====================================================================================================
+echo EJERCICIOS - TAREA S01.05: JAVA UTILS
+echo ====================================================================================================
+echo.
 :: Variables de entorno
-set BASE_DIR=%HOMEPATH%\IdeaProjects\S0105-JavaUtils
+set BASE_DIR=%CD%
 set SRC_DIR=%BASE_DIR%\src\main\java
-set TARGET_DIR=%BASE_DIR%\target\classes
+set TARGET_DIR=%BASE_DIR%\outJava
 
-cd %BASE_DIR%
-
+echo VARIABLES DE ENTORNO
+echo.
+echo Directorio base:        %BASE_DIR%
+echo Directorio src:         %SRC_DIR%
+echo Directorio compilación: %TARGET_DIR%
+echo.
 echo Pulsa ENTER para continuar...
 set /p tempVar=
 
@@ -16,7 +24,7 @@ set /p tempVar=
 type README_console.txt
 echo.
 pause
-
+echo.
 :: ==================================
 :: = FUNCIONES AL FINAL DEL ARCHIVO =
 :: ==================================
@@ -30,19 +38,16 @@ echo.
 echo ## Ejercicio 1 a 3
 call :compile "level01\exercises01to03"
 call :run "level01.exercises01to03.Main" "%SRC_DIR%"
-pause
 echo.
 
 echo ## Ejercicio 4
 call :compile "level01\exercise04"
 call :run "level01.exercise04.Main"
-pause
 echo.
 
 echo ## Ejercicio 5
 call :compile "level01\exercise05"
 call :run "level01.exercise05.Main"
-pause
 echo.
 
 :: NIVEL 2
@@ -54,7 +59,6 @@ echo.
 echo ## Ejercicio 1
 call :compile "level02\exercise01"
 call :run "level02.exercise01.Main"
-pause
 echo.
 
 :: NIVEL 3
@@ -70,6 +74,11 @@ echo.
 
 :: Limpieza
 del sources.path > nul
+
+:: Borrar la carpeta TARGET_DIR (out\classes) recursivamente
+if exist "%TARGET_DIR%\" (
+    rmdir /s /q "%TARGET_DIR%"
+)
 goto :eof
 
 :: =========================
@@ -77,6 +86,8 @@ goto :eof
 :: =========================
 
 :compile
+echo.
+pause
 echo.
 echo Compilando %~1...
 dir /b /s "%SRC_DIR%\%~1\*.java" > sources.path

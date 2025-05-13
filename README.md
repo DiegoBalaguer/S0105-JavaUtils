@@ -124,14 +124,14 @@ To run this project, you need:
 
 # ▶️ Execution
 
-1. To run tests from the command line (Maven):
+1. To run programs from the command line, (from the root of the project):
    ```sh
-   mvn test
+   S0105-JavaUtils-runner.bat
    ```
 
-2. To run tests in your IDE:
-   - Navigate to the test classes
-   - Right-click and select **Run tests**
+2. To run in your IDE:
+   - Navigate to the main classes
+   - Right-click and select **Run**
 
 ---
 

@@ -14,9 +14,6 @@ public class Main {
 
         ApplicationController applicationController = new ApplicationController();
 
-        System.out.println("Working directory: " + System.getProperty("user.dir"));
-        System.out.println("Argument directory: " + args[0]);
-
         if (args.length > 0) {
             applicationController.run(args[0]);
         } else {

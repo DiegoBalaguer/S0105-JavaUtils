@@ -14,7 +14,7 @@ public class DirectoryUtils {
                         (isInit ? "" : (isLast ? "└── " : "├── ")),
                         (file.isDirectory() ? "[D]" : "[F]"),
                         (isInit ? file.getAbsoluteFile() : file.getName())
-                ), 100)
+                ), 90)
                 + StringUtils.getDateFormatUSA(new Date(file.lastModified()));
     }
 
