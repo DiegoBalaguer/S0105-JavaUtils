@@ -1,6 +1,6 @@
 package level01.exercise05.application;
 
-import level01.exercise05.Utils.FileUtils;
+import level01.exercise05.utils.FileUtils;
 import level01.exercise05.model.User;
 
 import java.io.IOException;

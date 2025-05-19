@@ -1,7 +1,7 @@
 package level01.exercises01to03.application;
 
-import level01.exercises01to03.Utils.DirectoryUtils;
-import level01.exercises01to03.Utils.FileUtils;
+import level01.exercises01to03.utils.DirectoryUtils;
+import level01.exercises01to03.utils.FileUtils;
 
 import java.io.File;
 import java.io.IOException;

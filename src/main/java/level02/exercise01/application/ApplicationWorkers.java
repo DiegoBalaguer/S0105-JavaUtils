@@ -1,7 +1,7 @@
 package level02.exercise01.application;
 
-import level02.exercise01.Utils.FileUtils;
-import level02.exercise01.Utils.DirectoryUtils;
+import level02.exercise01.utils.FileUtils;
+import level02.exercise01.utils.DirectoryUtils;
 import level02.exercise01.model.PropertiesConfiguration;
 
 import java.io.IOException;

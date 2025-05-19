@@ -1,8 +1,14 @@
-package level01.exercises01to03.Utils;
+package level02.exercise01.utils;
 
 import java.io.File;
 import java.util.Arrays;
 import java.util.Date;
+
+/**
+ * PROGRAM: DirectoryUtils
+ * AUTHOR:  Diego Balaguer
+ * DATE:    10/05/2025
+ */
 
 public class DirectoryUtils {
 

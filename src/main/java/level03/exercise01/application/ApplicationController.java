@@ -4,7 +4,6 @@ package level03.exercise01.application;
 import level03.exercise01.utils.FileEncryptorUtils;
 
 import javax.crypto.SecretKey;
-import java.io.IOException;
 import java.nio.file.Path;
 
 /**

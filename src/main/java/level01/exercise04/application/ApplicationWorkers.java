@@ -1,7 +1,7 @@
 package level01.exercise04.application;
 
-import level01.exercise04.Utils.ConsoleUtils;
-import level01.exercise04.Utils.FileUtils;
+import level01.exercise04.utils.ConsoleUtils;
+import level01.exercise04.utils.FileUtils;
 
 import java.io.IOException;
 import java.nio.file.Path;

@@ -1,6 +1,6 @@
 package level02.exercise01.model;
 
-import level02.exercise01.Utils.FileUtils;
+import level02.exercise01.utils.FileUtils;
 
 import java.io.FileInputStream;
 import java.io.IOException;

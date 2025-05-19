@@ -1,65 +1,73 @@
-[D] C:\Users\Diego\IdeaProjects\S0105-JavaUtils\src\main\java                                       2025-04-28 02:22:38
-├── [D] level01                                                                                     2025-04-30 23:40:13
-│   ├── [D] exercise04                                                                              2025-04-28 12:27:16
-│   │   ├── [D] application                                                                         2025-05-01 13:35:54
-│   │   │   ├── [F] ApplicationController.java                                                      2025-05-01 13:35:54
-│   │   │   └── [F] ApplicationWorkers.java                                                         2025-05-01 13:30:32
-│   │   ├── [F] Main.java                                                                           2025-04-28 12:27:16
-│   │   └── [D] Utils                                                                               2025-04-30 00:34:16
-│   │       ├── [F] ConsoleUtils.java                                                               2025-04-28 02:04:56
-│   │       ├── [F] DirectoryUtils.java                                                             2025-04-28 02:04:56
-│   │       ├── [F] FileUtils.java                                                                  2025-04-30 00:34:16
-│   │       ├── [F] NumberUtils.java                                                                2025-04-28 02:04:56
-│   │       └── [F] StringUtils.java                                                                2025-04-28 02:04:56
-│   ├── [D] exercise05                                                                              2025-04-28 12:27:16
-│   │   ├── [D] application                                                                         2025-05-02 01:40:07
-│   │   │   ├── [F] ApplicationController.java                                                      2025-05-02 01:40:07
-│   │   │   └── [F] ApplicationWorkers.java                                                         2025-05-02 01:22:55
-│   │   ├── [F] Main.java                                                                           2025-04-28 12:27:16
-│   │   ├── [D] model                                                                               2025-05-02 01:22:55
-│   │   │   └── [F] User.java                                                                       2025-05-02 01:22:55
-│   │   └── [D] Utils                                                                               2025-04-30 00:03:54
-│   │       ├── [F] ConsoleUtils.java                                                               2025-04-28 02:04:56
-│   │       ├── [F] DirectoryUtils.java                                                             2025-04-28 02:04:56
-│   │       ├── [F] FileUtils.java                                                                  2025-04-30 00:03:54
-│   │       ├── [F] NumberUtils.java                                                                2025-04-28 02:04:56
-│   │       └── [F] StringUtils.java                                                                2025-04-28 02:04:56
-│   └── [D] exercises01to03                                                                         2025-04-30 23:52:48
-│       ├── [D] application                                                                         2025-05-02 01:22:55
-│       │   ├── [F] ApplicationController.java                                                      2025-04-30 23:40:44
-│       │   └── [F] ApplicationWorkers.java                                                         2025-05-02 01:22:55
-│       ├── [F] Main.java                                                                           2025-04-30 23:52:48
-│       └── [D] Utils                                                                               2025-04-30 23:40:44
-│           ├── [F] ConsoleUtils.java                                                               2025-04-30 23:40:44
-│           ├── [F] DirectoryUtils.java                                                             2025-04-30 23:40:44
-│           ├── [F] FileUtils.java                                                                  2025-04-30 23:40:44
-│           ├── [F] NumberUtils.java                                                                2025-04-30 23:40:44
-│           └── [F] StringUtils.java                                                                2025-04-30 23:40:44
-├── [D] level02                                                                                     2025-04-28 01:25:09
-│   └── [D] exercise01                                                                              2025-04-30 00:44:49
-│       ├── [D] application                                                                         2025-05-02 01:22:55
-│       │   ├── [F] ApplicationController.java                                                      2025-04-29 23:38:04
-│       │   └── [F] ApplicationWorkers.java                                                         2025-05-02 01:22:55
-│       ├── [D] configuration                                                                       2025-05-01 13:32:23
-│       │   └── [F] configuration.ini                                                               2025-05-01 13:32:23
-│       ├── [F] Main.java                                                                           2025-04-28 12:27:16
-│       ├── [D] model                                                                               2025-05-02 01:22:55
-│       │   └── [F] PropertiesConfiguration.java                                                    2025-05-02 01:22:55
-│       └── [D] Utils                                                                               2025-04-30 00:34:16
-│           ├── [F] ConsoleUtils.java                                                               2025-04-28 02:04:56
-│           ├── [F] DirectoryUtils.java                                                             2025-04-30 00:18:23
-│           ├── [F] FileUtils.java                                                                  2025-04-30 00:34:16
-│           ├── [F] NumberUtils.java                                                                2025-04-28 02:04:56
-│           └── [F] StringUtils.java                                                                2025-04-28 02:04:56
-└── [D] level03                                                                                     2025-04-28 02:22:38
-    └── [D] exercise01                                                                              2025-05-02 01:22:37
-        ├── [D] application                                                                         2025-04-29 12:38:20
-        │   └── [F] ApplicationController.java                                                      2025-04-29 12:38:20
-        ├── [F] Main.java                                                                           2025-04-28 12:27:16
-        └── [D] utils                                                                               2025-05-02 01:24:57
-            ├── [F] ConsoleUtils.java                                                               2025-05-02 01:24:57
-            ├── [F] DirectoryUtils.java                                                             2025-05-02 01:24:57
-            ├── [F] FileEncryptorUtils.java                                                         2025-04-29 12:27:20
-            ├── [F] FileUtils.java                                                                  2025-05-02 01:24:57
-            ├── [F] NumberUtils.java                                                                2025-05-02 01:24:57
-            └── [F] StringUtils.java                                                                2025-05-02 01:24:57
+[D] C:\Users\Diego\IdeaProjects\S0105-JavaUtils\src\main\java                             2025-05-20 01:38:28
+├── [D] level01                                                                           2025-04-30 23:40:13
+│   ├── [D] exercise04                                                                    2025-05-20 01:34:00
+│   │   ├── [D] application                                                               2025-05-20 01:41:58
+│   │   │   ├── [F] ApplicationController.java                                            2025-05-01 13:35:54
+│   │   │   └── [F] ApplicationWorkers.java                                               2025-05-20 01:41:58
+│   │   ├── [F] Main.java                                                                 2025-04-28 12:27:16
+│   │   └── [D] utils                                                                     2025-05-20 01:34:35
+│   │       ├── [F] ConsoleUtils.java                                                     2025-05-20 01:34:35
+│   │       ├── [F] DirectoryUtils.java                                                   2025-05-20 01:34:35
+│   │       ├── [F] FileEncryptorUtils.java                                               2025-05-20 01:34:35
+│   │       ├── [F] FileUtils.java                                                        2025-05-20 01:34:35
+│   │       ├── [F] NumberUtils.java                                                      2025-05-20 01:34:35
+│   │       └── [F] StringUtils.java                                                      2025-05-20 01:34:35
+│   ├── [D] exercise05                                                                    2025-05-20 01:34:09
+│   │   ├── [D] application                                                               2025-05-20 01:41:58
+│   │   │   ├── [F] ApplicationController.java                                            2025-05-02 01:40:07
+│   │   │   └── [F] ApplicationWorkers.java                                               2025-05-20 01:41:58
+│   │   ├── [F] Main.java                                                                 2025-04-28 12:27:16
+│   │   ├── [D] model                                                                     2025-05-02 01:22:55
+│   │   │   └── [F] User.java                                                             2025-05-02 01:22:55
+│   │   └── [D] utils                                                                     2025-05-20 01:36:47
+│   │       ├── [F] ConsoleUtils.java                                                     2025-05-20 01:36:47
+│   │       ├── [F] DirectoryUtils.java                                                   2025-05-20 01:36:47
+│   │       ├── [F] FileEncryptorUtils.java                                               2025-05-20 01:36:47
+│   │       ├── [F] FileUtils.java                                                        2025-05-20 01:36:47
+│   │       ├── [F] NumberUtils.java                                                      2025-05-20 01:36:47
+│   │       └── [F] StringUtils.java                                                      2025-05-20 01:36:47
+│   └── [D] exercises01to03                                                               2025-05-20 01:34:18
+│       ├── [D] application                                                               2025-05-20 01:41:58
+│       │   ├── [F] ApplicationController.java                                            2025-05-20 01:41:58
+│       │   └── [F] ApplicationWorkers.java                                               2025-05-20 01:41:58
+│       ├── [F] Main.java                                                                 2025-05-13 19:22:43
+│       └── [D] utils                                                                     2025-05-20 01:36:47
+│           ├── [F] ConsoleUtils.java                                                     2025-05-20 01:36:47
+│           ├── [F] DirectoryUtils.java                                                   2025-05-20 01:36:47
+│           ├── [F] FileEncryptorUtils.java                                               2025-05-20 01:36:47
+│           ├── [F] FileUtils.java                                                        2025-05-20 01:36:47
+│           ├── [F] NumberUtils.java                                                      2025-05-20 01:36:47
+│           └── [F] StringUtils.java                                                      2025-05-20 01:36:47
+├── [D] level02                                                                           2025-04-28 01:25:09
+│   └── [D] exercise01                                                                    2025-05-20 01:35:30
+│       ├── [D] application                                                               2025-05-20 01:41:58
+│       │   ├── [F] ApplicationController.java                                            2025-05-20 01:41:58
+│       │   └── [F] ApplicationWorkers.java                                               2025-05-20 01:41:58
+│       ├── [D] configuration                                                             2025-05-13 19:11:52
+│       │   └── [F] configuration.ini                                                     2025-05-13 19:11:52
+│       ├── [F] Main.java                                                                 2025-04-28 12:27:16
+│       ├── [D] model                                                                     2025-05-20 01:41:58
+│       │   └── [F] PropertiesConfiguration.java                                          2025-05-20 01:41:58
+│       └── [D] utils                                                                     2025-05-20 01:36:47
+│           ├── [F] ConsoleUtils.java                                                     2025-05-20 01:36:47
+│           ├── [F] DirectoryUtils.java                                                   2025-05-20 01:36:47
+│           ├── [F] FileEncryptorUtils.java                                               2025-05-20 01:36:47
+│           ├── [F] FileUtils.java                                                        2025-05-20 01:36:47
+│           ├── [F] NumberUtils.java                                                      2025-05-20 01:36:47
+│           └── [F] StringUtils.java                                                      2025-05-20 01:36:47
+├── [D] level03                                                                           2025-04-28 02:22:38
+│   └── [D] exercise01                                                                    2025-05-20 01:36:27
+│       ├── [D] application                                                               2025-05-20 01:41:58
+│       │   └── [F] ApplicationController.java                                            2025-05-20 01:41:58
+│       ├── [F] Main.java                                                                 2025-04-28 12:27:16
+│       └── [D] utils                                                                     2025-05-20 01:36:47
+│           ├── [F] ConsoleUtils.java                                                     2025-05-20 01:36:47
+│           ├── [F] DirectoryUtils.java                                                   2025-05-20 01:36:47
+│           ├── [F] FileEncryptorUtils.java                                               2025-05-20 01:36:47
+│           ├── [F] FileUtils.java                                                        2025-05-20 01:36:47
+│           ├── [F] NumberUtils.java                                                      2025-05-20 01:36:47
+│           └── [F] StringUtils.java                                                      2025-05-20 01:36:47
+└── [D] utilsWithComments                                                                 2025-05-20 01:29:56
+    ├── [F] ConsoleUtils.java                                                             2025-05-20 01:29:56
+    ├── [F] NumberUtils.java                                                              2025-05-20 01:29:56
+    └── [F] StringUtils.java                                                              2025-05-20 01:29:56

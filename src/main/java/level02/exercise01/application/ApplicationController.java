@@ -1,6 +1,6 @@
 package level02.exercise01.application;
 
-import level02.exercise01.Utils.FileUtils;
+import level02.exercise01.utils.FileUtils;
 
 import java.nio.file.InvalidPathException;
 

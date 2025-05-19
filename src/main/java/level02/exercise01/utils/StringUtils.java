@@ -1,4 +1,4 @@
-package level02.exercise01.Utils;
+package level02.exercise01.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -17,10 +17,6 @@ public class StringUtils {
         char letter = 0;
 
         for (int i = 0; i < quantity; i++) {
-            // Generating a number between 1 and 3
-            // 1 -> between A y Z
-            // 2 -> between a y z
-            // 3 -> between 0 y 9
             int type = NumberUtils.random(1, 3);
             switch (type) {
                 case 1 -> letter = (char) NumberUtils.random('A', 'Z');
@@ -41,7 +37,6 @@ public class StringUtils {
             int type = NumberUtils.random(1, 2);
             switch (type) {
                 case 1 -> letter = (char) NumberUtils.random('A', 'Z');
-                //case 2 -> letter = (char) random('a', 'z');
                 case 2 -> letter = (char) NumberUtils.random('0', '9');
             }
             passwd.append(letter);
@@ -65,6 +60,4 @@ public class StringUtils {
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return dateFormat.format(date);
     }
-
-
 }

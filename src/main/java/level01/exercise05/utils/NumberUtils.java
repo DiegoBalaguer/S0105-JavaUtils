@@ -1,4 +1,4 @@
-package level02.exercise01.Utils;
+package level01.exercise05.utils;
 
 import java.util.Random;
 
@@ -19,5 +19,4 @@ public class NumberUtils {
         Random random = new Random();
         return random.nextInt(num_min, num_max + 1);
     }
-
 }

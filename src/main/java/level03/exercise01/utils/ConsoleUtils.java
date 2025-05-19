@@ -7,30 +7,6 @@ import java.util.function.Function;
  * PROGRAM: ConsoleUtils
  * AUTHOR:  Diego Balaguer
  * DATE:    19/02/2025
- * <p>
- * PUBLIC METHODS AND VARIABLES:
- * readValueXXX(Scanner, message): Shows a message and returns the given value turned into
- * Int, Double, String or Long depending on the name of the function. If it is string, it is possible to return "".
- * readRequiredXXX(Scanner, message): Shows a message and returns the given value turned into Int, Double,
- * String or Long depending on the name of the function. In this function is not possible to be given an empty value.
- * <p>
- * USAGE:
- * <p>
- * To import this class into the necessary projects, we can do it in two ways:
- * <p>
- * **  import ConsoleUtils; or import ConsoleUtils.*;
- * <p>
- * This way, we have to call the methods from another class like this:
- * ConsoleUtils.readValueString("Message");
- * <p>
- * **  import static ConsoleUtils.*;
- * <p>
- * This way, we have to call the methods from another class like this:
- * readValueString("Message");
- * <p>
- * Doing it like the first example, we have visual info that the method is into another class and it can help us.
- * Doing it like the second example, the code is more compact.
- * Choose as needed.
  */
 
 public class ConsoleUtils {
@@ -41,11 +17,7 @@ public class ConsoleUtils {
         sc.close();
     }
 
-    // Functions readRequiredXX analyze that the inputs are not empty
-    // In functions readValueXX you can press enter straightaway, but the numbers will be 0
-
     public static String readRequiredString(String message) {
-        // Only controlling the value emptiness
         do {
             try {
                 return readLineString(message);
@@ -84,39 +56,43 @@ public class ConsoleUtils {
         }
     }
 
-    public static <T> T readValue(String message, Function<String, T> parser) {
+    private static <T> T readValue(String message, Function<String, T> parser, Class<? extends RuntimeException> expectedException) {
         do {
             try {
                 String input = readRequiredString(message);
                 return parser.apply(input);
-            } catch (Exception e) {
-                System.err.println("Error: " + e.getMessage());
+            } catch (RuntimeException e) {
+                if (expectedException.isInstance(e)) {
+                    System.err.println("Error: " + e.getMessage());
+                } else {
+                    throw e;
+                }
             }
         } while (true);
     }
 
     public static int readRequiredInt(String message) {
-        return readValue(message, Integer::parseInt);
+        return readValue(message, Integer::parseInt, NumberFormatException.class);
     }
 
     public static long readRequiredLong(String message) {
-        return readValue(message, Long::parseLong);
+        return readValue(message, Long::parseLong, NumberFormatException.class);
     }
 
     public static double readRequiredDouble(String message) {
-        return readValue(message, Double::parseDouble);
+        return readValue(message, Double::parseDouble, NumberFormatException.class);
     }
 
     public static float readRequiredFloat(String message) {
-        return readValue(message, Float::parseFloat);
+        return readValue(message, Float::parseFloat, NumberFormatException.class);
     }
 
     public static byte readRequiredByte(String message) {
-        return readValue(message, Byte::parseByte);
+        return readValue(message, Byte::parseByte, NumberFormatException.class);
     }
 
     public static short readShort(String message) {
-        return readValue(message, Short::parseShort);
+        return readValue(message, Short::parseShort, NumberFormatException.class);
     }
 
     public static boolean readRequiredBoolean(String message) {

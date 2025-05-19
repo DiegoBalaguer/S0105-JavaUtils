@@ -1,4 +1,4 @@
-# S01.05 - Java Utils
+# S01.05 - Java utils
 
 ---
 

@@ -1,4 +1,4 @@
-package level02.exercise01.Utils;
+package level02.exercise01.utils;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -6,6 +6,12 @@ import java.nio.file.Files;
 import java.nio.file.InvalidPathException;
 import java.nio.file.Path;
 import java.nio.file.StandardOpenOption;
+
+/**
+ * PROGRAM: FileUtils
+ * AUTHOR:  Diego Balaguer
+ * DATE:    10/05/2025
+ */
 
 public class FileUtils {
 
@@ -53,6 +59,5 @@ public class FileUtils {
     public static FileInputStream readFileInputStream(Path pathWithFile) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(pathWithFile.toFile());
         return fileInputStream;
-
     }
 }
